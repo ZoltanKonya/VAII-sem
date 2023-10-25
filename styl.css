@@ -1,0 +1,59 @@
+header {
+    background-color: dodgerblue;
+}
+
+header ul.nav a.nav-link {
+    color: black !important;
+}
+
+#carouselExampleCaptions .carousel-item {
+    height: 400px; /* Set to your desired height */
+    overflow: hidden; /* This will hide the excess part of the image */
+}
+
+#carouselExampleCaptions .carousel-item img {
+    height: 100%; /* This will make the image take the full height of its container */
+    object-fit: cover; /* This will ensure that the image covers the container without distorting its aspect ratio */
+    width: 100%; /* This will make the image take the full width of its container */
+}
+
+p,h5{
+    color:black ;
+}
+
+content {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.destinations {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.destination {
+    background-color: #ddd;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    flex: 2;
+    transition: flex 0.3s;
+}
+
+.destination:hover {
+    flex: 3; /* make the hovered destination take more space */
+}
+
+body {
+    display: flex;
+    flex-direction: column; /* stack children vertically */
+    min-height: 100vh; /* viewport height */
+}
+
+main {
+    flex: 1; /* this will take up all available space and push the footer to the bottom */
+}
