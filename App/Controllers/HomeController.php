@@ -42,6 +42,11 @@ class HomeController extends AControllerBase
         return $this->html();
     }
 
+    public function blog(): Response
+    {
+        return $this->html();
+    }
+
     public function showJson(): Response
     {
         $message = new Message();

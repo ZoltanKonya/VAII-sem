@@ -36,6 +36,9 @@
                 <a class="nav-link" href="<?= $link->url("home.index") ?>">Domov</a>
             </li>
             <li class="nav-item">
+                <a class="nav-link" href="<?= $link->url("home.blog") ?>">Blog</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="<?= $link->url("home.contact") ?>">Kontakt</a>
             </li>
         </ul>
@@ -82,7 +85,7 @@
                         <a href="#" class="text-dark">Ponuka</a>
                     </li>
                     <li>
-                        <a href="Blog.html" class="text-dark">Blog</a>
+                        <a href="<?= $link->url("home.blog") ?>" class="text-dark">Blog</a>
                     </li>
                     <li>
                         <a href="<?= $link->url("home.contact") ?>" class="text-dark">Kontakt</a>
