@@ -1,4 +1,4 @@
-<div class="container-fluid">
+<div class="container-container">
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -42,7 +42,7 @@
         <div class="destinations">
             <div class="destination">
                 <h3>Paríž</h3>
-                <p>ZPotulky uličkami, návšteva Eiffelovej veže alebo piknik pri Seine. Zažite to všetko a viac!</p>
+                <p>Potulky uličkami, návšteva Eiffelovej veže alebo piknik pri Seine. Zažite to všetko a viac!</p>
             </div>
             <div class="destination">
                 <h3>Praha</h3>

@@ -6,15 +6,59 @@ header ul.nav a.nav-link {
     color: black !important;
 }
 
+/* Container for the carousel to maintain aspect ratio */
+.carousel-container {
+    width: 100%;
+    /* Aspect ratio - replace 56.25% with the percentage for your desired aspect ratio */
+    padding-top: 56.25%; /* Example for 16:9 aspect ratio */
+    position: relative;
+}
+
+#carouselExampleCaptions .carousel-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+}
+
 #carouselExampleCaptions .carousel-item {
-    height: 400px; /* Set to your desired height */
-    overflow: hidden; /* This will hide the excess part of the image */
+    position: relative;
+    height: 100%;
 }
 
 #carouselExampleCaptions .carousel-item img {
-    height: 100%; /* This will make the image take the full height of its container */
-    object-fit: cover; /* This will ensure that the image covers the container without distorting its aspect ratio */
-    width: 100%; /* This will make the image take the full width of its container */
+    width: 100%;
+    object-fit: cover; /* Change to 'contain' if you want to see the whole image */
+}
+
+#carouselExampleCaptions .carousel-caption {
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    right: 15px;
+    padding: 1em;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white;
+    text-align: center; /* Center the text */
+    white-space: nowrap; /* Prevents text from wrapping */
+    overflow: hidden; /* Hide overflow text */
+    text-overflow: ellipsis; /* Add ellipsis to text overflow */
+}
+
+/* Responsive font sizes */
+#carouselExampleCaptions .carousel-caption h5,
+#carouselExampleCaptions .carousel-caption p {
+    font-size: calc(1em + 1vw); /* Responsive font size */
+}
+
+/* Ensure text is visible on narrow screens */
+@media (max-width: 767px) {
+    #carouselExampleCaptions .carousel-caption {
+        background: rgba(0, 0, 0, 0.7); /* Darker background for readability */
+        white-space: normal; /* Allows text wrapping */
+    }
 }
 
 p,h5{
@@ -52,8 +96,17 @@ body {
     display: flex;
     flex-direction: column; /* stack children vertically */
     min-height: 100vh; /* viewport height */
+    margin: 0;
 }
 
 main {
     flex: 1; /* this will take up all available space and push the footer to the bottom */
+}
+
+.container-fluid {
+    padding: 0; /* This will grow to take up all available space */
+}
+
+footer {
+    width: 100%;
 }
