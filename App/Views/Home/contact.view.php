@@ -24,16 +24,16 @@
     <section class="row mt-5">
         <h2>Galéria</h2>
         <div class="col-md-3">
-            <img src="img/gallery1.png" class="img-fluid" alt="Fotografia 1">
+            <img src="public/images/gallery1.png" class="img-fluid" alt="Fotografia 1">
         </div>
         <div class="col-md-3">
-            <img src="img/gallery2.png" class="img-fluid" alt="Fotografia 2">
+            <img src="public/images/gallery2.png" class="img-fluid" alt="Fotografia 2">
         </div>
         <div class="col-md-3">
-            <img src="img/gallery3.png" class="img-fluid" alt="Fotografia 3">
+            <img src="public/images/gallery3.png" class="img-fluid" alt="Fotografia 3">
         </div>
         <div class="col-md-3">
-            <img src="img/gallery4.png" class="img-fluid" alt="Fotografia 4">
+            <img src="public/images/gallery4.png" class="img-fluid" alt="Fotografia 4">
         </div>
     </section>
 </main>

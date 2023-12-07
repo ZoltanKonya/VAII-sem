@@ -14,14 +14,14 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="img/pas2.png" class="d-block w-100" alt="...">
+                <img src="public/images/pas2.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Zadarmo sprievodca pri ceste nad 1000€</h5>
                     <p>Rezervujte teraz a objavte kúzla sveta s nami.</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="img/pas3.png" class="d-block w-100" alt="...">
+                <img src="public/images/pas3.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h6>Špeciálne ponuky pre skupinové výlety</h6>
                     <p1>Získajte nezabudnuteľné spomienky s priateľmi alebo rodinou.</p1>
@@ -64,7 +64,7 @@
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="img/ponukaEgypt.png" class="card-img-top" alt="...">
+                    <img src="public/images/ponukaEgypt.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Egypt</h5>
                         <button>Pozrieť ponuku</button>
@@ -73,7 +73,7 @@
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="img/ponukaTurecko.png" class="card-img-top" alt="...">
+                    <img src="public/images/ponukaTurecko.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Turecko</h5>
                         <button>Pozrieť ponuku</button>
@@ -82,7 +82,7 @@
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="img/ponukaBulharsko.png" class="card-img-top" alt="...">
+                    <img src="public/images/ponukaBulharsko.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Bulharsko</h5>
                         <button>Pozrieť ponuku</button>
@@ -91,7 +91,7 @@
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="img/ponukaMexiko.png" class="card-img-top" alt="...">
+                    <img src="public/images/ponukaMexiko.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Mexiko</h5>
                         <button>Pozrieť ponuku</button>
